@@ -79,11 +79,11 @@ You can swap any Solana token for any other, place limit orders, automate trades
 
 <summary>Is FatCat Bot free to use?</summary>
 
-FatCat Bot is free to start.
+FatCat Bot is not free.
 
-Fees are charged on trades.
+Fees are charged on trades — typically around 0.1% per swap, and around 0.08% to open a Perps position. You also pay standard Solana network fees and Jupiter program fees.
 
-See [Fee Structure](https://docs.fatcatbot.io/fees-and-rewards/fee-structure) for details.
+See [Fee Structure](https://docs.fatcatbot.io/fees-and-rewards/fee-structure) for a full breakdown.
 
 </details>
 
@@ -119,9 +119,9 @@ You can also export your FatCat wallet’s private key and import it into any ot
 
 The FatCat Mobile App is a web-based trading interface you can open directly from the bot menu.
 
-It offers live charts, swaps, limit orders, Perps trading, and portfolio management in a visual interface.
+Open it from the bot's **Main Menu** — tap `📱 Mobile App`.
 
-It is the recommended way to trade for the best experience.
+It offers live charts, swaps, limit orders, Perps trading, and portfolio management in a visual interface. It is the recommended way to trade for the best experience.
 
 </details>
 
@@ -151,7 +151,7 @@ Only your authenticated session can authorize transactions.
 
 Privy is the wallet infrastructure provider that generates and secures your embedded Solana wallet.
 
-It uses hardware-isolated encryption (AWS Nitro Enclaves) and key sharding (Shamir’s Secret Sharing, 2-of-2 share set) to ensure that no single party can access your private key.
+In simple terms: your private key is split into pieces and locked inside secure hardware. No single party — not FatCat, not Privy — ever holds the full key. Even if FatCat were hacked, your funds stay safe.
 
 Privy is SOC 2 Type II certified and independently audited by Cure53, Zellic, and Doyensec.
 
@@ -187,7 +187,7 @@ The key only exists in its complete form inside the Trusted Execution Environmen
 
 <summary>Can I export my private key?</summary>
 
-Yes.
+Yes. It is highly recommended that you export and store your private key.
 
 You can export your full private key at any time through Privy’s secure environment.
 
@@ -227,8 +227,7 @@ Social logins like Google or Apple require pop-up windows that Telegram’s brow
 
 Yes.
 
-FatCat supports swapping any Solana SPL token for any other Solana SPL token, as\
-long as both have liquidity on Jupiter.
+FatCat supports swapping any Solana SPL token for any other Solana SPL token, as long as both have liquidity on a supported liquidity pool
 
 </details>
 
@@ -314,6 +313,16 @@ Quick links:
 
 </details>
 
+<details>
+
+<summary>What happens to my limit orders and DCA if I'm offline or logged out?</summary>
+
+They keep running. Limit orders and DCA orders are placed on-chain through Jupiter, so they execute automatically whether you're online, logged out, or have your phone off.
+
+You don't need to stay connected for your orders to fill.
+
+</details>
+
 ### Perps (leveraged trading)
 
 <details>
@@ -350,9 +359,9 @@ You deposit collateral, and Jupiter Perpetuals opens a leveraged position on you
 
 Three things to understand before you trade:
 
-- **Collateral** — what you put in to back the position.
+- **Collateral** — the funds you deposit to back the position.
 - **Leverage** — how large your position is relative to your collateral. Higher leverage = higher risk.
-- **Liquidation** — if the market moves far enough against you, your position is force-closed and your collateral is gone.
+- **Liquidation** — if the market moves far enough against you, your position is force-closed and you lose all the collateral you deposited.
 
 </details>
 
@@ -379,7 +388,9 @@ Make sure you hold the correct token before opening. For any short, you need USD
 
 Leverage lets you open a position larger than your collateral.
 
-10x leverage on $100 of collateral opens a $1,000 position (before fees). It multiplies both gains and losses. A 10% move against you on a 10x position wipes your collateral entirely.
+Your **notional size** (total position size) = collateral × leverage. For example, $100 collateral at 10x leverage = $1,000 notional size.
+
+It multiplies both gains and losses. A 10% move against you on a 10x position wipes your collateral entirely.
 
 Start low.
 
@@ -389,7 +400,7 @@ Start low.
 
 <summary>What is liquidation?</summary>
 
-If your position loses enough value that your collateral can no longer cover it, the protocol force-closes your trade. Your collateral is lost.
+Liquidation happens when the loss on your notional size equals your deposited collateral. At that point, the protocol force-closes your trade and you lose all the collateral you deposited.
 
 Every position shows a liquidation price when you open it. Set a stop loss above that price.
 
@@ -417,6 +428,18 @@ Example: long SOL at $150, take profit at $200. When SOL hits $200, the trade cl
 
 </details>
 
+<details>
+
+<summary>Why is my collateral and leverage slightly different from what I set?</summary>
+
+This is normal. Jupiter charges an opening fee (0.06% of notional size) that is deducted from your collateral when the position opens.
+
+For example, if you deposit $10 collateral at 10x leverage, your $100 notional size stays the same, but after Jupiter's opening fee your effective collateral becomes ~$9.93 and your effective leverage becomes ~10.1x.
+
+Your notional size (total position size) remains what you expected — only the collateral and leverage shift slightly to account for the fee.
+
+</details>
+
 <br>
 
 ### Fees
@@ -438,9 +461,9 @@ Full breakdown: [Fee Structure](https://docs.fatcatbot.io/fees-and-rewards/fee-s
 
 <summary>Why do I see a fee even if I cancel or the trade fails?</summary>
 
-Some fees are charged **upfront** or **at approval**.
-
-That can make them non-refundable, even if execution fails later.
+{% hint style="warning" %}
+**Fees can be lost on failed or cancelled trades.** Some fees are charged **upfront** or **at approval** and are **non-refundable**, even if execution fails or you cancel the order.
+{% endhint %}
 
 Common cases:
 
@@ -474,6 +497,13 @@ Common causes:
 * The token has transfer restrictions.
 * Liquidity is too thin to exit at your size.
 * The pool changed fast while you were selling.
+
+If you're stuck holding a token you can't sell, try:
+
+* **Retry the sell** — sometimes a second attempt goes through.
+* **Wait 5–10 minutes** and try again — liquidity and conditions can change.
+* **Reduce the sell amount** — selling a smaller portion may succeed.
+* **Increase slippage tolerance** — a wider slippage can help in thin pools.
 
 Read: [Trade Safely](https://docs.fatcatbot.io/safety-and-security/trade-safely).
 
@@ -550,8 +580,6 @@ Wait at least 60 seconds before requesting a new code.
 <details>
 
 <summary>My session expired.</summary>
-
-Privy sessions can expire after a period of inactivity.
 
 Tap Sign In again to re-authenticate.
 

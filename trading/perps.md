@@ -21,7 +21,7 @@ Leverage can liquidate you fast. Size positions conservatively.
 
 * **Market:** SOL, wBTC, or wETH.
 * **Direction:** long or short.
-* **Collateral amount:** set your position size (the amount you lock).
+* **Collateral amount:** the amount you deposit to back the position.
 * **Leverage:** set your exposure multiplier.
 * **Slippage tolerance:** default **2%** (adjustable per trade).
 * **Optional Stop Loss/Take Profit (SL/TP):** trigger-based exits (execution can slip in fast markets).
@@ -63,10 +63,10 @@ Trade Perps in the bot, or open the **Perps Mobile App** directly from the bot�
 {% hint style="info" %}
 Key terms:
 
-* **Notional size:** your total position size. It includes leverage.
-* **Collateral:** what you lock to support the position.
+* **Notional size:** your total position size (collateral × leverage).
+* **Collateral:** the funds you deposit to back the position.
 * **Leverage:** multiplier on collateral (example: 10× = 10× exposure).
-* **Liquidation price:** price where margin becomes too low. The position can be force-closed.
+* **Liquidation price:** the price at which your loss on notional equals your deposited collateral. The position is force-closed and you lose all your collateral.
 * **Borrow fee:** hourly cost paid while the position is open.
   {% endhint %}
 
