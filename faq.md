@@ -432,7 +432,7 @@ Example: long SOL at $150, take profit at $200. When SOL hits $200, the trade cl
 
 <summary>Why is my collateral and leverage slightly different from what I set?</summary>
 
-This is normal. Jupiter charges an opening fee (0.06% of notional size) that is deducted from your collateral when the position opens.
+This is normal. This is becasue both network fees are charged and Jupiter charges an opening fee (0.06% of notional size) that is deducted from your collateral when the position opens.
 
 For example, if you deposit $10 collateral at 10x leverage, your $100 notional size stays the same, but after Jupiter's opening fee your effective collateral becomes ~$9.93 and your effective leverage becomes ~10.1x.
 
