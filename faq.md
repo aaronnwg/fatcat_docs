@@ -223,6 +223,16 @@ Social logins like Google or Apple require pop-up windows that Telegram’s brow
 
 <details>
 
+<summary>What is Jupiter?</summary>
+
+Jupiter is Solana's leading DEX aggregator and on-chain program provider. FatCat routes trades through Jupiter for swaps, limit orders, DCA, and Perps.
+
+Jupiter charges its own fees on many of these features — separate from FatCat's fees. See [Fee Structure](https://docs.fatcatbot.io/fees-and-rewards/fee-structure) for a breakdown of what each party charges.
+
+</details>
+
+<details>
+
 <summary>Can I swap any token for any other token?</summary>
 
 Yes.
