@@ -340,6 +340,83 @@ Use stop losses and trade responsibly.
 
 </details>
 
+<details>
+
+<summary>How do Perps work?</summary>
+
+Perps let you trade on price going up (long) or down (short) with leverage.
+
+You deposit collateral, and Jupiter Perpetuals opens a leveraged position on your behalf. Profits and losses are settled in your collateral token when you close the trade.
+
+Three things to understand before you trade:
+
+- **Collateral** — what you put in to back the position.
+- **Leverage** — how large your position is relative to your collateral. Higher leverage = higher risk.
+- **Liquidation** — if the market moves far enough against you, your position is force-closed and your collateral is gone.
+
+</details>
+
+<details>
+
+<summary>What collateral do I need?</summary>
+
+It depends on direction and market.
+
+| Direction | Market | Collateral |
+|---|---|---|
+| Long | SOL | SOL `So11111111111111111111111111111111111111112` |
+| Long | ETH | wETH `7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs` |
+| Long | BTC | wBTC `3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh` |
+| Short | Any | USDC `EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v` |
+
+Make sure you hold the correct token before opening. For any short, you need USDC.
+
+</details>
+
+<details>
+
+<summary>What is leverage?</summary>
+
+Leverage lets you open a position larger than your collateral.
+
+10x leverage on $100 of collateral opens a $1,000 position (before fees). It multiplies both gains and losses. A 10% move against you on a 10x position wipes your collateral entirely.
+
+Start low.
+
+</details>
+
+<details>
+
+<summary>What is liquidation?</summary>
+
+If your position loses enough value that your collateral can no longer cover it, the protocol force-closes your trade. Your collateral is lost.
+
+Every position shows a liquidation price when you open it. Set a stop loss above that price.
+
+</details>
+
+<details>
+
+<summary>What is a Stop Loss (SL)?</summary>
+
+A stop loss automatically closes your position if the price reaches a level you set — limiting your loss before it reaches liquidation.
+
+Set it between your entry price and your liquidation price. For longs, that means above liquidation. For shorts, below liquidation.
+
+Example: long SOL at $150, liquidation at $120, stop loss at $135. If SOL drops to $135, the position closes automatically.
+
+</details>
+
+<details>
+
+<summary>What is a Take Profit (TP)?</summary>
+
+A take profit automatically closes your position when price hits your target, locking in your gains.
+
+Example: long SOL at $150, take profit at $200. When SOL hits $200, the trade closes and profit goes to your wallet.
+
+</details>
+
 <br>
 
 ### Fees
@@ -504,6 +581,22 @@ Transactions on Solana are irreversible.
 FatCat cannot recover funds sent to the wrong address.
 
 Always double-check addresses before sending.
+
+</details>
+
+<br>
+
+### Withdraw 
+
+<details>
+
+<summary>How do I withdraw funds?</summary>
+
+Use the **Send** function — available in the Telegram bot and on the FatCat Mobile App.
+
+Enter a destination Solana wallet address, select the token and amount, and confirm. Funds go directly on-chain.
+
+See: [Send](https://docs.fatcatbot.io/send).
 
 </details>
 
