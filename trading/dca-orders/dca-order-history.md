@@ -1,3 +1,7 @@
+---
+description: View completed and cancelled DCA orders.
+---
+
 # DCA Order History
 
 **Button:** `📔 DCA Order History` (DCA Menu)
@@ -19,7 +23,7 @@ Use DCA Order History to review your completed and cancelled DCA orders.
 {% hint style="info" %}
 DCA orders live on Jupiter’s recurring program.
 
-You can also review them on: <https://jup.ag/recurring>
+You can also review them on: [https://jup.ag/recurring](https://jup.ag/recurring)
 {% endhint %}
 
 ### What the list includes

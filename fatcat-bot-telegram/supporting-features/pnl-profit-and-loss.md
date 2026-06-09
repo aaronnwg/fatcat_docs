@@ -1,17 +1,21 @@
+---
+description: Track daily wallet PnL and generate shareable PnL cards.
+---
+
 # PNL (Profit & Loss)
 
 **Button:** `📈 PNL` (Main Menu)
 
-Use PNL to review your wallet’s daily performance.
+Use the `📈 PNL` screen to review your wallet’s daily performance.
 
 ### What you can do
 
 * See daily performance across your holdings.
 * Generate a shareable PnL card.
 
-### Token PNL
+### Token PnL
 
-Tokens with more than $1 PnL are shown. Click a token to view its 24h PnL.
+Tokens with more than $1 in PnL are shown. Tap a token to view its 24h PnL.
 
 ### What you’ll see
 
@@ -22,7 +26,7 @@ Tokens with more than $1 PnL are shown. Click a token to view its 24h PnL.
 
 Generate a shareable PnL card for your daily performance.
 
-### What to look for (no screenshots)
+### What to look for
 
 {% columns %}
 {% column %}
@@ -31,7 +35,7 @@ Generate a shareable PnL card for your daily performance.
 * Your daily PnL summary.
 * A token list filtered to meaningful moves.
 * Quick access to drill into a single asset.
-  {% endcolumn %}
+{% endcolumn %}
 
 {% column %}
 **Token detail**
@@ -39,8 +43,8 @@ Generate a shareable PnL card for your daily performance.
 * 24h token-specific PnL.
 * Balance changes from buys and sells.
 * Price movement context for the day.
-  {% endcolumn %}
-  {% endcolumns %}
+{% endcolumn %}
+{% endcolumns %}
 
 ### What a PnL card contains
 

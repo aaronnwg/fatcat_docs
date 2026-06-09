@@ -1,3 +1,7 @@
+---
+description: View wallet holdings and jump into buy/sell flows.
+---
+
 # Portfolio
 
 **Button:** `💼 Portfolio` (Main Menu)
@@ -16,8 +20,9 @@ Use Portfolio to view your connected wallet holdings at a glance.
 
 ### Related
 
-* Buy or sell instantly with [Market Buy & Market Sell](https://docs.fatcatbot.io/trading/swaps/market-buy-and-market-sell).
-* Place conditional trades with [Limit Orders](https://docs.fatcatbot.io/trading/limit-orders).
+* Buy or sell instantly with [Market Buy & Market Sell](../../trading/swaps/market-buy-and-market-sell.md).
+* Place conditional trades with [Limit Orders](../../trading/limit-orders.md).
+* Transfer assets out with [Send](send.md).
 
 {% hint style="info" %}
 If you don’t see a token you hold, refresh and confirm you’re connected to the right wallet.

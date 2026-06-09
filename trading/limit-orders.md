@@ -1,14 +1,21 @@
+---
+description: Set a target price and let Jupiter fill the trade on-chain.
+icon: bullseye-arrow
+---
+
 # Limit Orders
 
 Limit orders let you set a target price for buying or selling a token.
 
-FatCat monitors the market and executes the trade when your target is hit.
+The order stays active on-chain until your target is fillable.
+
+Jupiter fills the trade on-chain when market conditions allow.
 
 Limit orders stay active on-chain until filled, cancelled, or expired.
 
 FatCat places limit orders on **Jupiter’s limit order book**.
 
-Limit orders are available in both the FatCat Telegram bot and the FatCat Mobile App.
+Limit orders are available in both the FatCat Telegram bot and the FatCat Web App.
 
 ### Before you start
 
@@ -16,7 +23,7 @@ Limit orders are available in both the FatCat Telegram bot and the FatCat Mobile
 * Keep extra SOL for network fees.
 * Expect the market to move. A fill is never guaranteed.
 
-See also: [Trade Safely](https://docs.fatcatbot.io/safety-and-security/trade-safely) and [Where to Find Tokens](https://docs.fatcatbot.io/tokens/where-to-find-tokens).
+See also: [Trade Safely](../safety-and-security/trade-safely.md) and [Where to Find Tokens](../tokens/where-to-find-tokens.md).
 
 ### What you can do
 
@@ -33,11 +40,11 @@ You can manage your orders from the bot’s **Main Menu**.
 
 Limit orders include FatCat fees and Jupiter program fees.
 
-* **FatCat fee:** **1%** (charged upfront when you place the order)
+* **FatCat fee:** **0.1%** (charged upfront when you place the order)
 * **Jupiter fee:** **0.1%** (charged only if the order fills)
 * **Solana network fees:** paid for the on-chain transactions
 
-For the full breakdown, see [Fee Structure](https://docs.fatcatbot.io/fees-and-rewards/fee-structure).
+For the full breakdown, see [Fee Structure](../fees-and-rewards/fee-structure.md).
 
 ### How execution works
 
@@ -69,7 +76,7 @@ When you place a limit order:
 
 * View active limit orders (Main Menu).
 * View completed/cancelled limit orders (Main Menu).
-* You can also view and manage them on Jupiter: <https://jup.ag/limit>
+* You can also view and manage them on Jupiter: [https://jup.ag/limit](https://jup.ag/limit)
 
 ### Troubleshooting
 

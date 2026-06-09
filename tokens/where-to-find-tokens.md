@@ -1,3 +1,8 @@
+---
+description: Find and verify mint addresses before trading a token.
+icon: coin-blank
+---
+
 # Where to Find Tokens
 
 You can trade most SPL tokens on FatCat. The token must have liquidity on a supported pool.
@@ -45,6 +50,6 @@ Same name does not mean same token. Always verify the mint address before tradin
 
 ### Safety notes
 
-If you’re unsure about a token, read [Avoiding Scams](https://docs.fatcatbot.io/safety-and-security/avoiding-scams) and [Trade Safely](https://docs.fatcatbot.io/safety-and-security/trade-safely) first.
+If you’re unsure about a token, read [Avoiding Scams](../safety-and-security/avoiding-scams.md) and [Trade Safely](../safety-and-security/trade-safely.md) first.
 
-If you want the deeper mechanics, see [How Tokens Work](https://docs.fatcatbot.io/tokens/how-tokens-work).
+If you want the deeper mechanics, see [How Tokens Work](how-tokens-work.md).

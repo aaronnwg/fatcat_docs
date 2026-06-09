@@ -1,3 +1,8 @@
+---
+description: Legal disclaimers, terms, and official policy links.
+icon: clipboard
+---
+
 # Disclaimers
 
 ### What to know
@@ -8,10 +13,11 @@
 
 ### Official links
 
-* Disclaimers: <https://fatcatbot.io/disclaimers>
-* Terms of Use: <https://fatcatbot.io/terms-of-use>
-* Cookie Policy: <https://fatcatbot.io/cookie-policy>
-* Code of Conduct: <https://fatcatbot.io/conduct-policy>
+* Disclaimers: [https://fatcatbot.io/disclaimers](https://fatcatbot.io/disclaimers)
+* Terms and Conditions of Use: [https://fatcatbot.io/terms-and-conditions](https://fatcatbot.io/terms-and-conditions)
+* Privacy Policy: [https://fatcatbot.io/privacy-policy](https://fatcatbot.io/privacy-policy)
+* Cookie Policy: [https://fatcatbot.io/cookie-policy](https://fatcatbot.io/cookie-policy)
+* Code of Conduct: [https://fatcatbot.io/conduct-policy](https://fatcatbot.io/conduct-policy)
 
 You can also open these forms and view your acceptance by clicking 📋 Disclaimers on the Main Menu.
 
@@ -19,6 +25,6 @@ In order to use FatCat Bot, acceptance of all terms and disclaimers is required.
 
 ### Related
 
-* Safer trading basics: [Trade Safely](https://docs.fatcatbot.io/safety-and-security/trade-safely)
-* Common scams to avoid: [Avoiding Scams](https://docs.fatcatbot.io/safety-and-security/avoiding-scams)
-* Get support: [Help](https://docs.fatcatbot.io/help-and-policies/help)
+* Safer trading basics: [Trade Safely](../safety-and-security/trade-safely.md)
+* Common scams to avoid: [Avoiding Scams](../safety-and-security/avoiding-scams.md)
+* Get support: [Help](help.md)

@@ -1,9 +1,11 @@
+---
+description: Common scam patterns and what to do if something feels off.
+icon: lock-keyhole
+---
+
 # Avoiding Scams
 
-{% hint style="warning" %}
-Never share your seed phrase or private key.\
-FatCat support will never ask for them.
-{% endhint %}
+{% include "../.gitbook/includes/security-warning-support.md" %}
 
 ### Common scam patterns
 
@@ -41,7 +43,6 @@ If anything looks off, tap **Reject**.
 
 {% stepper %}
 {% step %}
-
 ### Stop and don’t sign
 
 Cancel the transaction.\
@@ -49,15 +50,13 @@ Close the site or bot flow.
 {% endstep %}
 
 {% step %}
-
 ### Disconnect and review recent activity
 
-Disconnect your wallet from FatCat and stop using.\
+Sign out of FatCat and stop using the flow.\
 Check your recent transactions in a trusted Solana explorer.
 {% endstep %}
 
 {% step %}
-
 ### Move funds to safety
 
 If you suspect compromise, transfer remaining funds to a fresh wallet.
@@ -67,4 +66,3 @@ If you suspect compromise, transfer remaining funds to a fresh wallet.
 ### Rule of thumb
 
 If you can’t independently verify what you’re trading, don’t trade it.
-

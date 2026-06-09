@@ -1,6 +1,10 @@
+---
+description: Why you need SOL for network fees and smooth trading.
+---
+
 # Solana
 
-FatCat trades on the Solana blockchain. Through FatCat you can trade Solana tokens and on-chain Perpetual contracts.
+FatCat trades on the Solana blockchain. Through FatCat you can trade Solana tokens and on-chain Perpetual contracts. You’ll use **SOL** to pay network fees.
 
 Most actions need a small SOL balance.
 

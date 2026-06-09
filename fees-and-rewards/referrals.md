@@ -1,3 +1,8 @@
+---
+description: Share your referral link and earn a portion of trading fees.
+icon: people-arrows
+---
+
 # Referrals
 
 Share your referral link to earn a portion of your referrals’ trading fees.
@@ -13,27 +18,24 @@ At a glance:
 * **Direct referrals:** earn **20%** of their fees.
 * **Sub-referrals:** earn **5%** of fees from your referrals’ referrals.
 * Referrals are **2 tiers** only.
-  {% endhint %}
+{% endhint %}
 
 ### Get your referral link
 
 {% stepper %}
 {% step %}
-
 ### Open Referrals
 
 In FatCat Bot, open **Main Menu →** `📣 Referrals`.
 {% endstep %}
 
 {% step %}
-
 ### Copy your link
 
 Copy your personal referral link.
 {% endstep %}
 
 {% step %}
-
 ### Share it
 
 Send the link to friends or post it where you share trades.
@@ -47,7 +49,7 @@ You earn rewards based on the **fees paid** by users who join via your link.
 * **Direct referrals (Tier 1):** you earn **20%** of fees from users you refer.
 * **Sub-referrals (Tier 2):** you earn **5%** of fees from users referred by your direct referrals.
 
-Related: [Fee Structure](https://docs.fatcatbot.io/fees-and-rewards/fee-structure)
+Related: [Fee Structure](fee-structure.md)
 
 #### Example
 
@@ -70,7 +72,7 @@ Referral rewards are not always instant.
 
 Referrals are only paid if your referral balance is 0.01 SOL or greater.
 
-Payouts are made approximately every 24 hours when pending balance is at least 0.01 SOL
+Payouts are made approximately every 24 hours when pending balance is at least 0.01 SOL.
 
 On-chain execution and indexing can take time during congestion.
 

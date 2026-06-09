@@ -1,6 +1,10 @@
+---
+description: View past Perp events and closed-position PnL.
+---
+
 # Perp History
 
-**Button:** `📚 Perp History` (Perps menu)\
+**Button:** `📚 History` (Perps menu)\
 Command: `/historical_positions`
 
 ### What you’ll see
@@ -30,20 +34,20 @@ When you close a position, FatCat generates a shareable PnL card.
 PnL cards are useful for sharing trade results.
 
 {% hint style="warning" %}
-The PnL shown in History and on PnL cards includes close fees and borrow fees deducted by Jupiter’s Perp program.
+The PnL shown in History and on PnL cards includes close fees and ongoing venue fees already deducted from the position.
 
 It does **not** include FatCat fees charged at approval.
 
-It also does not include Jupiter's opening fees.
+It may also exclude some open-side fees shown at approval.
 
-Full breakdown: [Fee Structure](https://docs.fatcatbot.io/fees-and-rewards/fee-structure).
+Full breakdown: [Fee Structure](../../fees-and-rewards/fee-structure.md).
 {% endhint %}
 
 <details>
 
 <summary>If my latest event isn’t showing</summary>
 
-Reopen `📚 Perp History` after a short delay.
+Reopen `📚 History` after a short delay.
 
 On-chain finality and indexing can take a moment during congestion.
 

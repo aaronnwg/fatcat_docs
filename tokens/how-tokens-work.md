@@ -1,3 +1,8 @@
+---
+description: Token basics on Solana, including liquidity, supply, and mint addresses.
+icon: circle-question
+---
+
 # How Tokens Work
 
 ### Token basics on Solana
@@ -85,7 +90,7 @@ The token’s unique identifier on Solana.
 
 Use the mint address to avoid copycat tokens.
 
-See: [Where to Find Tokens](https://docs.fatcatbot.io/tokens/where-to-find-tokens).
+See: [Where to Find Tokens](where-to-find-tokens.md).
 
 #### Mints and burns
 

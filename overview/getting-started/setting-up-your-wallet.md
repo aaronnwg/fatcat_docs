@@ -1,25 +1,32 @@
+---
+description: Connect an existing wallet or create a Privy embedded wallet.
+---
+
 # Setting Up Your Wallet
 
-FatCat Bot uses Privy embedded wallets.
+FatCat Bot supports Privy embedded wallets and wallet connection.
 
-Your wallet is created automatically when you sign in for the first time.
+You can connect an existing wallet when you sign in, or create a wallet.
 
 There is nothing to install.
 
-### Creating your wallet
+### Connecting or creating your wallet
 
 1\. Open FatCat Bot in Telegram and tap **Sign In**.
 
 2\. A secure page opens inside Telegram’s built-in browser.
 
-3\. Enter your email address.
+3\. Choose whether to connect an existing wallet or create a new Privy wallet.
 
-4\. Enter the verification code that is sent to you.
+4\. If you create a Privy wallet, enter your email address or phone number.
 
-5\. Privy creates a Solana wallet for you automatically.
+5\. If prompted, enter the verification code that is sent to you.
 
-6\. You are returned to the bot, ready to trade.
+6\. Complete the wallet flow and return to the bot, ready to trade.
 
+{% hint style="info" %}
+The same flow works on both mobile and desktop. There is no separate process for different devices.
+{% endhint %}
 
 ### Supported login methods in Telegram
 
@@ -27,9 +34,9 @@ Due to how Telegram’s built-in browser works, only **email** and **SMS** login
 
 Social logins (Google, Apple, etc.) require pop ups that Telegram’s browser does not allow.
 
-### How your wallet is secured
+### How your embedded wallet is secured
 
-FatCat Bot is fully non-custodial.
+If you create a Privy embedded wallet, FatCat Bot is fully non-custodial.
 
 No one has access to your private key except you.
 
@@ -45,7 +52,7 @@ Here is how it works:
 
 5\. **Privy has zero access:** Privy’s architecture is specifically designed so that even Privy themselves cannot access your full private key. The key only exists inside the TEE, which is isolated from all external access including Privy’s own infrastructure.
 
-6\. **Only you can sign:** Your authenticated session (verified through your email) is the sole mechanism that can trigger the signing process. Without your active authentication, nothing happens.
+6\. **Only you can sign:** Your authenticated session (verified through your email or phone number) is the sole mechanism that can trigger the signing process. Without your active authentication, nothing happens.
 
 Privy is SOC 2 Type II certified and has been independently audited by Cure53, Zellic, and Doyensec.
 
@@ -81,7 +88,7 @@ You can export your full private key at any time.
 
 5\. FatCat never sees it. The export happens entirely within Privy’s sandboxed iframe on a different origin. FatCat’s app cannot read, intercept, or access anything that happens in that modal.
 
-Once exported, you can import the key into any Solana wallet.
+Once exported, you can import the key into any Solana wallet (Solflare, Backpack, etc.).
 
 {% hint style="info" %}
 We recommend exporting and securely backing up your private key.
@@ -111,5 +118,3 @@ This is your backup if you ever lose access to your email or phone.
 | Signing                | Opens a separate app/extension for approval.                | Happens directly in the interface.                                        |
 | Portability            | Tied to the wallet app.                                     | Export your key and use it anywhere.                                      |
 | Device support         | May differ between mobile and desktop.                      | Same experience on every device.                                          |
-
-<br>

@@ -1,3 +1,8 @@
+---
+description: Troubleshooting help and support contact guidance.
+icon: hand-holding-medical
+---
+
 # Help
 
 **Button:** `🔔 Help` (Main Menu)
@@ -18,7 +23,8 @@ Use Help when:
 ### How to contact support
 
 * If the 🔔 Help section doesn’t provide the answer you need, check the docs.
-* If you still can’t find the answer to your problem contact support at <help@fatcatbot.io>.
+* For self-serve product guidance, use the [AI Assistant](../ai-assistant/ai-assistant.md).
+* If you still can’t find the answer to your problem, contact support at [help@fatcatbot.io](mailto:help@fatcatbot.io).
 
 #### What to include when contacting support
 
@@ -38,6 +44,7 @@ Never share your seed phrase or private key. FatCat team members and support wil
 
 ### Related
 
-* Safer trading basics: [Trade Safely](https://docs.fatcatbot.io/safety-and-security/trade-safely)
-* Common scams to avoid: [Avoiding Scams](https://docs.fatcatbot.io/safety-and-security/avoiding-scams)
-* Common issues and fixes: [FAQ](https://docs.fatcatbot.io/overview/faq)
+* Self-serve guidance: [AI Assistant](../ai-assistant/ai-assistant.md)
+* Safer trading basics: [Trade Safely](../safety-and-security/trade-safely.md)
+* Common scams to avoid: [Avoiding Scams](../safety-and-security/avoiding-scams.md)
+* Common issues and fixes: [FAQ](../overview/faq.md)
