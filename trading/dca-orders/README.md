@@ -1,3 +1,8 @@
+---
+description: Automate recurring buys or sells on a fixed schedule.
+icon: chart-mixed-up-circle-dollar
+---
+
 # DCA Orders
 
 Dollar Cost Averaging (DCA) automates recurring buys or sells over time, splitting your order into smaller trades at regular intervals to reduce the impact of short-term volatility.
@@ -15,7 +20,7 @@ You choose a token, total amount, number of orders, and interval. FatCat splits 
 ### Requirements and fees
 
 * **Minimum total:** **$100**. **Minimum per execution:** **$50**. Each split must be equal-sized with no leftover.
-* **FatCat fee:** **0.1%** upfront. **Jupiter program fee:** per execution. Plus Solana network fees. See [Fee Structure](https://docs.fatcatbot.io/fees-and-rewards/fee-structure).
+* **FatCat fee:** **0.1%** upfront. **Jupiter program fee:** per execution. Plus Solana network fees. See [Fee Structure](../../fees-and-rewards/fee-structure.md).
 
 {% hint style="info" %}
 The first execution runs immediately when you confirm. The schedule is on-chain, so you don't need to keep the bot open.
@@ -25,7 +30,11 @@ The first execution runs immediately when you confirm. The schedule is on-chain,
 
 Main menu: `⏰ DCA` → `🟢 DCA Buy` or `🔴 DCA Sell`. Set the token, total amount, and frequency, then confirm and approve. Funds are committed upfront, remaining executions run automatically, and assets land in your wallet after each one.
 
-Manage orders: [Active DCA Orders](https://docs.fatcatbot.io/trading/dca-orders/active-dca-orders) · [DCA Order History](https://docs.fatcatbot.io/trading/dca-orders/dca-order-history).
+Manage orders: [Active DCA Orders](active-dca-orders.md) · [DCA Order History](dca-order-history.md).
+
+### Troubleshooting
+
+Setup usually fails because: the total is under $100, an execution would be under $50, the total doesn't divide evenly, or your balance is too low (plus fees).
 
 {% hint style="warning" %}
 DCA reduces timing risk, but not market risk. Prices can move between executions.

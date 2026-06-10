@@ -1,8 +1,13 @@
+---
+description: Trade Perps with leverage and risk controls.
+icon: infinity
+---
+
 # Perps
 
 Perpetual Futures (Perps) let you open **long** or **short** positions with leverage.
 
-FatCat routes Perps through multiple on-chain venues — **GMTrade** (default), **Jupiter Perpetuals**, and **Flash Trade**. The AI uses GMTrade by default if a token is available across multiple venues; say "Jupiter" or "Flash" when placing a trade via AI to use those instead.
+FatCat routes Perps through multiple on-chain venues — **GMTrade**, **Jupiter Perpetuals**, and **Flash Trade** — covering SOL, BTC, ETH, and many other markets (some venues also cover forex, stocks, and commodities).
 
 {% hint style="danger" %}
 Leverage can liquidate you fast. Size positions conservatively.
@@ -10,16 +15,16 @@ Leverage can liquidate you fast. Size positions conservatively.
 
 ### What you can do
 
-* Open a long or short with leverage.
+* Open a long or short with leverage (maximums vary by venue and market).
 * Add to, or partially/fully close, a position.
 * Set and manage stop loss (SL) and take profit (TP).
 
 ### What you set
 
-* **Market** — Varies by venue; including forex, stocks, commodities, and crypto.
+* **Market** — varies by venue.
 * **Direction** — long or short.
 * **Collateral** — the amount you deposit to back the position.
-* **Leverage** — your exposure multiplier (maximums vary by venue and market).
+* **Leverage** — your exposure multiplier.
 * **Slippage tolerance** — default **2%**, adjustable per trade.
 * **Optional SL/TP** — trigger-based exits (execution can slip in fast markets).
 
@@ -31,22 +36,24 @@ Leverage can liquidate you fast. Size positions conservatively.
 
 ### Fees
 
-Perps have a **FatCat fee** plus **venue fees** and **Solana network fees**.
+Perps have a **FatCat fee** plus **venue fees** and **Solana network fees**, all charged on notional size.
 
-* **FatCat:** **0.06%** of notional, charged only when you **open** (non-refundable, paid in SOL). No FatCat fee to close or to set/modify SL/TP.
+* **FatCat:** **0.08%** of notional, charged only when you **open** (non-refundable, paid in SOL). No FatCat fee to close or to set/modify SL/TP.
 * **Venue (GMTrade / Jupiter / Flash Trade):** each charges its own open, close, and ongoing borrow/funding fees. These are set by the venue, can change, and are shown in the in-app approval before you sign.
 
-Full overview: [Fee Structure](https://docs.fatcatbot.io/fees-and-rewards/fee-structure).
+Full overview: [Fee Structure](../../fees-and-rewards/fee-structure.md).
 
-### Opening a position in the bot
+### Opening a position
 
-1. Tap `📈 Open Long` or `📉 Open Short`.
+In the Telegram bot, the `📈 Open Long` / `📉 Open Short` buttons trade a default venue's markets. To reach other venues and markets, use the **AI chat** or the **web app**, which support all venues — name the venue (e.g. "Jupiter" or "Flash") when you want a specific one.
+
+1. Tap `📈 Open Long` or `📉 Open Short` (or ask the AI / use the web app).
 2. Set token, collateral, leverage, and slippage.
 3. Review the summary — liquidation price, position size, collateral, leverage.
 4. Tap `✅ Confirm Trade`, then approve.
 
 {% hint style="info" %}
-Collateral requirements vary by venue and direction and are shown when you trade. If you pay in a different token, a swap is bundled into the same transaction. Opening another position of the same market and direction updates the existing one.
+Collateral requirements vary by venue and direction, and are shown when you trade. If you pay in a different token, a swap is bundled into the same transaction — you sign once and both land, or neither does. Opening another position of the same market and direction updates the existing one.
 {% endhint %}
 
 ### After you confirm
@@ -59,6 +66,6 @@ SL/TP and liquidation are on-chain rules, not guaranteed fills — fast markets 
 
 ### Manage & troubleshoot
 
-Manage open positions in `🎯 Active Positions` — see [Manage positions](https://docs.fatcatbot.io/trading/perps/manage-positions). Closed positions are in `📚 Perp History`.
+Manage open positions in `🎯 Active Positions` — see [Manage positions](manage-positions.md). Closed positions are in [Perp History](perp-history.md).
 
-If an action fails, it's usually: not enough SOL for fees, the wrong collateral type, slippage too tight, or a position too large for the venue's pool (try a smaller size or another venue).
+If an action fails, it's usually: not enough SOL for fees, slippage too tight, the wrong collateral type, or a position too large for the venue's pool (try a smaller size or another venue).

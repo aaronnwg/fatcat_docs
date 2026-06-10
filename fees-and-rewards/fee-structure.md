@@ -11,7 +11,7 @@ You'll always see the exact cost in the in-app approval screen before you confir
 * **Market swaps:** FatCat **0.1%**
 * **Limit orders:** FatCat **0.1%** + Jupiter program fee (only if it fills)
 * **DCA orders:** FatCat **0.1%** + Jupiter program fee per execution
-* **Perps — open:** FatCat **0.06%** of notional (non-refundable, paid in SOL) + venue fees
+* **Perps — open:** FatCat **0.08%** of notional (non-refundable, paid in SOL) + venue fees
 * **Perps — close / set SL or TP:** FatCat **No Fee** + venue fees
 
 All actions also pay Solana network fees.
@@ -24,7 +24,7 @@ All actions also pay Solana network fees.
 
 ### Perps fees
 
-* **FatCat:** **0.06%** of notional, only when you **open**. Non-refundable once approved, paid in SOL. No FatCat fee to close or set SL/TP.
+* **FatCat:** **0.08%** of notional, only when you **open**. Non-refundable once approved, paid in SOL. No FatCat fee to close or set SL/TP.
 * **Venue:** each venue charges its own open, close, and ongoing borrow/funding fees on notional size, shown in the in-app approval.
 
 See [Perps](https://docs.fatcatbot.io/trading/perps).

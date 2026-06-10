@@ -1,6 +1,6 @@
 # Limit Orders
 
-Limit orders let you set a target price to buy or sell a token. FatCat places them on Jupiter's on-chain limit order book, where they stay active until filled, cancelled, or expired. Available in the Telegram bot and the Mobile App.
+Limit orders let you set a target price to buy or sell a token. FatCat places them on Jupiter's on-chain limit order book, where they stay active until filled, cancelled, or expired. Available in the Telegram bot and the Web App.
 
 ### Before you start
 

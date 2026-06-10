@@ -30,7 +30,7 @@ Tap Sell, select the token, choose a percentage or amount, then review and appro
 {% endstepper %}
 
 {% hint style="info" %}
-For live charts and faster execution, open the FatCat Mobile App from the bot menu — the recommended way to trade.
+For live charts and faster execution, open the FatCat Web App from the bot menu — the recommended way to trade.
 {% endhint %}
 
 ### What's next?

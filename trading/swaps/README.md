@@ -1,10 +1,15 @@
+---
+description: Market buy or market sell any supported SPL token.
+icon: arrow-right-arrow-left
+---
+
 # Swaps
 
-Swaps are **market orders** — they execute instantly at the best available route. For price-triggered trades, see [Limit Orders](https://docs.fatcatbot.io/trading/limit-orders).
+Swaps are **market orders** — they execute instantly at the best available route. For price-triggered trades, see [Limit Orders](../limit-orders.md).
 
 ### Before you swap
 
-* You need a wallet ([Setting Up Your Wallet](https://docs.fatcatbot.io/overview/getting-started/setting-up-your-wallet)).
+* You need a wallet ([Setting Up Your Wallet](../../overview/getting-started/setting-up-your-wallet.md)).
 * Keep extra SOL for network fees. New tokens may require a one-time token account fee.
 
 ### Make a swap
@@ -25,4 +30,4 @@ FatCat routes across liquidity sources with MEV-protected routing and settles ou
 
 ### Related
 
-[Market Buy & Market Sell](https://docs.fatcatbot.io/trading/swaps/market-buy-and-market-sell) · [Limit Orders](https://docs.fatcatbot.io/trading/limit-orders) · [Trade Safely](https://docs.fatcatbot.io/safety-and-security/trade-safely)
+[Market Buy & Market Sell](market-buy-and-market-sell.md) · [Limit Orders](../limit-orders.md) · [Trade Safely](../../safety-and-security/trade-safely.md)
