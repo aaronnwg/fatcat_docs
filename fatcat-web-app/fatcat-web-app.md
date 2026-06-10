@@ -7,7 +7,7 @@ icon: mobile
 
 # FatCat Web App
 
-The FatCat Web App is an enhanced trading interface for charts, faster execution, and wallet management. It opens inside Telegram's built-in browser (or your browser on desktop).
+The FatCat Web App is an enhanced trading interface for charts, faster execution, token discovery, and wallet management. It opens inside Telegram's built-in browser (or your browser on desktop).
 
 **Open it:** Main Menu `📱 FatCat Web App`, or `/webapp`.
 

@@ -38,7 +38,7 @@ Leverage can liquidate you fast. Size positions conservatively.
 
 Perps have a **FatCat fee** plus **venue fees** and **Solana network fees**, all charged on notional size.
 
-* **FatCat:** **0.08%** of notional, charged only when you **open** (non-refundable, paid in SOL). No FatCat fee to close or to set/modify SL/TP.
+* **FatCat:** **06%** of notional, charged only when you **open** (non-refundable, paid in SOL). No FatCat fee to close or to set/modify SL/TP.
 * **Venue (GMTrade / Jupiter / Flash Trade):** each charges its own open, close, and ongoing borrow/funding fees. These are set by the venue, can change, and are shown in the in-app approval before you sign.
 
 Full overview: [Fee Structure](../../fees-and-rewards/fee-structure.md).
