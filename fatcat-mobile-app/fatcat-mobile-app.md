@@ -1,47 +1,20 @@
-# FatCat Mobile App
+# FatCat Web App
 
-Use the FatCat Mobile App for charts and faster position management.
+The FatCat Web App is an enhanced trading interface for charts and a more advanced experience.
 
-Open the FatCat Mobile App for a more interactive trading experience.
-
-**Button:** `📱 FatCat Mobile App` (Main Menu)
-
-### Where to find it
-
-* Main Menu: `📱 FatCat Mobile App`
-* Command: `/mobileapp`
-
-### What it is
-
-This opens an enhanced mobile interface inside Telegram’s built-in browser.
-
-On desktop, it opens in your browser.
-
-It’s designed for active trading and monitoring.
+**Open it:** Main Menu `📱 FatCat Web App`, or `/webapp`. It opens inside Telegram's built-in browser (or your browser on desktop).
 
 ### What you get
 
-* Live trading charts
-* All position management functionality (close, SL/TP, refresh)
-* Faster, more visual trading flow optimized for mobile
-* Swap any SPL Token for any other SPL Token
-* Manage your wallet and send tokens
+* Live trading charts.
+* Full position management (close, edit SL/TP, refresh).
+* Token Discovery page.
+* Swap any SPL token for any other.
+* Wallet management and token sends.
+* A more visual flow than the chat interface.
 
-### Benefits
-
-* Live charts instead of chat-first execution.
-* Faster decisions with less scrolling and fewer prompts.
-* Better mobile workflow for quick entries and exits.
-* Full position management in one place (close, edit SL/TP, refresh).
-* Easier to monitor PnL and liquidation risk while price moves.
-* More interactive swap experience 
-
-### When to use it
-
-Use it when you want a more data-focused, real-time experience than the Telegram chat interface.
-
-It’s ideal if you’re watching price action and need to execute quickly.
+Use it when you're watching price action and want to execute quickly.
 
 {% hint style="info" %}
-If you don’t see charts, retry opening it from the bot button.
+If you don't see charts, retry opening it from the bot button.
 {% endhint %}

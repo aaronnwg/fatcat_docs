@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/aaronkessler/Desktop/Fat_Cat/docs -type f \\\\\\(-name *.html -o -name *.css -o -name *.scss -o -name *.vue -o -name *.svelte -o -name tailwind.config.* \\\\\\))",
+      "Bash(find /Users/aaronkessler/Desktop/Fat_Cat/code -type f \\\\\\(-name *.tsx -o -name *.ts -o -name *.jsx -o -name *.js -o -name *.css -o -name *.scss -o -name *.html \\\\\\) ! -path */node_modules/* ! -path */.angular/* ! -path */.git/* ! -path */dist/* ! -path */build/*)",
+      "Bash(grep -r \"#9945FF\\\\|#6c5ce7\\\\|#a855f7\\\\|#8b5cf6\\\\|--color-primary\" /Users/aaronkessler/Desktop/Fat_Cat/code --include=\"*.tsx\" --include=\"*.ts\" --include=\"*.jsx\" --include=\"*.js\" --include=\"*.css\" --include=\"*.html\" ! -path \"*/node_modules/*\" ! -path \"*/.angular/*\")",
+      "WebSearch",
+      "WebFetch(domain:www.tradingview.com)",
+      "Bash(find /Users/aaronkessler/Desktop/Fat_Cat/code/portal/ui/src -type f \\\\\\(-name *.ts -o -name *.tsx -o -name *.js -o -name *.jsx \\\\\\))",
+      "Bash(grep -r \"lightweight\\\\|TradingView\\\\|chart\\\\|Chart\" /Users/aaronkessler/Desktop/Fat_Cat/code/portal/ui/src --include=*.ts --include=*.html)",
+      "Bash(find /Users/aaronkessler/Desktop/Fat_Cat/code/fatcat -type f \\\\\\(-name *chart* -o -name *trading* \\\\\\))",
+      "Bash(npx tsc:*)",
+      "Bash(/Users/aaronkessler/Desktop/Fat_Cat/code/fatcat/phantom-app/node_modules/.bin/tsc --noEmit --project /Users/aaronkessler/Desktop/Fat_Cat/code/fatcat/phantom-app/tsconfig.json)",
+      "Bash(find /Users/aaronkessler/Desktop/Fat_Cat/docs/fatcat-mobile-app -type f \\\\\\(-name *.ts -o -name *.tsx -o -name *.js -o -name *.jsx \\\\\\))",
+      "Bash(find /Users/aaronkessler/Desktop/Fat_Cat/code -type f \\\\\\(-name *disclaimer* -o -name *sign* \\\\\\))",
+      "Bash(pip3 install:*)",
+      "Bash(python3 -c \":*)",
+      "Bash(python3 -m pip install pdfplumber -q)",
+      "Bash(python3 -m pip install --user pdfplumber -q)",
+      "Bash(python3 -m pip install --user --break-system-packages pdfplumber -q)",
+      "WebFetch(domain:s3.amazonaws.com)",
+      "Bash(npm uninstall:*)",
+      "Bash(npx vite:*)"
+    ]
+  }
+}

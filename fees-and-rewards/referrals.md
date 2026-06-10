@@ -1,95 +1,26 @@
 # Referrals
 
-Share your referral link to earn a portion of your referrals’ trading fees.
+Share your referral link to earn a portion of your referrals' trading fees.
 
 {% hint style="info" %}
-Last updated: **Jan 16, 2026**
+Find it in **Main Menu →** `📣 Referrals`.
+
+* **Direct referrals (Tier 1):** earn **20%** of their fees.
+* **Sub-referrals (Tier 2):** earn **5%** of fees from your referrals' referrals.
 {% endhint %}
 
-{% hint style="info" %}
-At a glance:
+### How it works
 
-* Find it in **Main Menu →** `📣 Referrals`.
-* **Direct referrals:** earn **20%** of their fees.
-* **Sub-referrals:** earn **5%** of fees from your referrals’ referrals.
-* Referrals are **2 tiers** only.
-  {% endhint %}
+Open `📣 Referrals`, copy your link, and share it. You earn based on the fees paid by users who join via your link.
 
-### Get your referral link
+**Example:** you refer Alex, who pays $100 in fees → you earn $20. If Alex refers Bea, who pays $100 → Alex earns $20 and you earn $5.
 
-{% stepper %}
-{% step %}
+### Payouts
 
-### Open Referrals
-
-In FatCat Bot, open **Main Menu →** `📣 Referrals`.
-{% endstep %}
-
-{% step %}
-
-### Copy your link
-
-Copy your personal referral link.
-{% endstep %}
-
-{% step %}
-
-### Share it
-
-Send the link to friends or post it where you share trades.
-{% endstep %}
-{% endstepper %}
-
-### How referral rewards work
-
-You earn rewards based on the **fees paid** by users who join via your link.
-
-* **Direct referrals (Tier 1):** you earn **20%** of fees from users you refer.
-* **Sub-referrals (Tier 2):** you earn **5%** of fees from users referred by your direct referrals.
-
-Related: [Fee Structure](https://docs.fatcatbot.io/fees-and-rewards/fee-structure)
-
-#### Example
-
-* You refer **Alex**.
-* Alex pays **$100** in trading fees.
-* You earn **$20** (20% of $100).
-
-If Alex refers **Bea**, and Bea pays **$100** in fees:
-
-* Alex earns **$20** (20% of $100).
-* You earn **$5.00** (5% of $100).
+Payouts run roughly every 24 hours once your pending balance is at least **0.01 SOL**; on-chain indexing can lag during congestion. If rewards look wrong, the user may not have joined via your link, the action may have had no fee, or the trade may still be indexing.
 
 {% hint style="warning" %}
-Referral rates and program rules may change over time.
+Referral rates and rules may change over time. Only share links to the **official** FatCat Bot.
 {% endhint %}
 
-### Timing and crediting
-
-Referral rewards are not always instant.
-
-Referrals are only paid if your referral balance is 0.01 SOL or greater.
-
-Payouts are made approximately every 24 hours when pending balance is at least 0.01 SOL
-
-On-chain execution and indexing can take time during congestion.
-
-### If your referral rewards look wrong
-
-Common causes:
-
-* The user didn’t join via your link.
-* The action had no fee (no reward base).
-* The trade is recent and still indexing.
-
-If you need help, contact support with:
-
-* Your wallet address.
-* The referred user’s wallet (if they can share it).
-* Approximate timestamps and any transaction signatures.
-
-### Sharing tips
-
-* Share the **link**, not a screenshot.
-* Pin it in your Telegram bio or a “Start here” post.
-* Only share links to the **official** FatCat Bot to avoid scams.
+Related: [Fee Structure](https://docs.fatcatbot.io/fees-and-rewards/fee-structure)

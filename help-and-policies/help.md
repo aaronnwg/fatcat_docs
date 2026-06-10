@@ -2,42 +2,23 @@
 
 **Button:** `🔔 Help` (Main Menu)
 
-Use Help to see solutions to common problems.
+Use Help to see solutions to common problems. It never places trades or changes wallet permissions.
 
-Help never places trades or changes wallet permissions.
+### How to get support
 
-### When to use Help
+If `🔔 Help` and the docs don't answer your question, contact support at <help@fatcatbot.io>.
 
-Use Help when:
+When you reach out, include:
 
-* a transaction failed and you can’t tell why
-* an order looks stuck or missing
-* you think you might be dealing with a scam or a fake bot
-* you need account-specific troubleshooting
-
-### How to contact support
-
-* If the 🔔 Help section doesn’t provide the answer you need, check the docs.
-* If you still can’t find the answer to your problem contact support at <help@fatcatbot.io>.
-
-#### What to include when contacting support
-
-Share enough to debug. Do not share secrets.
-
-Include:
-
-* Your wallet address and Telegram User Name or ID.
+* Your wallet address and Telegram username or ID.
 * The feature you used (swap, limit, DCA, Perps).
 * The step that failed (connect, sign, pending, filled, etc.).
-* A transaction signature (if one exists).
-* Screenshots of the error.
+* A transaction signature and a screenshot of the error, if you have them.
 
 {% hint style="warning" %}
-Never share your seed phrase or private key. FatCat team members and support will never ask for your seed phrase or private key.
+Never share your seed phrase or private key. FatCat team members and support will never ask for them.
 {% endhint %}
 
 ### Related
 
-* Safer trading basics: [Trade Safely](https://docs.fatcatbot.io/safety-and-security/trade-safely)
-* Common scams to avoid: [Avoiding Scams](https://docs.fatcatbot.io/safety-and-security/avoiding-scams)
-* Common issues and fixes: [FAQ](https://docs.fatcatbot.io/overview/faq)
+* [Trade Safely](https://docs.fatcatbot.io/safety-and-security/trade-safely) · [Avoiding Scams](https://docs.fatcatbot.io/safety-and-security/avoiding-scams) · [FAQ](https://docs.fatcatbot.io/overview/faq)
