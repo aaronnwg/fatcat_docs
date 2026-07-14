@@ -26,7 +26,7 @@ metaLinks:
 
 # Welcome
 
-FatCat is a non-custodial trading platform built for messaging apps — currently available in Telegram. It brings the best Solana trading experience right into your hands, and you stay in control of your funds the whole time.
+FatCat is a non-custodial trading platform built for messaging apps — currently available in Telegram and LINE. It brings the best Solana trading experience right into your hands, and you stay in control of your funds the whole time.
 
 {% include ".gitbook/includes/security-warning-support.md" %}
 

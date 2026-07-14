@@ -9,6 +9,7 @@
   * [Funding Your Wallet](overview/getting-started/funding-your-wallet.md)
   * [Solana](overview/getting-started/solana.md)
   * [Telegram](overview/getting-started/telegram.md)
+  * [LINE](overview/getting-started/line.md)
 * [FAQ](overview/faq.md)
 
 ## FATCAT BOT - TELEGRAM
